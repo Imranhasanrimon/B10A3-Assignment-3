@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rinterio</title>
+    <!-- favicon link  -->
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+    <!-- font awesome CDN  -->
+    <script src="https://kit.fontawesome.com/82b4de73d1.js" crossorigin="anonymous"></script>
+    <!-- google font links  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- DaisyUI & Tailwind CDN  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwindcss configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        body: 'rgb(244, 244, 244)',
+                        primary: 'rgb(171, 239, 95)',
+                        title: 'rgb(33, 33, 33)',
+                        subtitle: 'rgb(73, 73, 73)',
+                        small_title: 'rgb(115, 115, 115)'
+                    },
+                    fontFamily: {
+                        manrope: 'Manrope'
+                    }
+                }
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+    <header class="bg-gradient-to-b from-body to-white">
+        <div class="container mx-auto  ">
+            <!-- navbar  -->
+            <div class="navbar py-12">
+                <div class="navbar-start">
+                    <div class="inline-flex items-center justify-center  bg-primary h-8 w-8 p-3  rounded-full">
+                        <i class="fa-solid fa-arrow-right -rotate-45 text-black"></i>
+                    </div>
+                    <a class=" text-3xl font-bold ml-2">Rinterio</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li class="text-title font-bold"><a>Home</a></li>
+                        <li class="text-small_title hover:text-black "><a>Services</a></li>
+                        <li class="text-small_title hover:text-black "><a>Portfolio</a></li>
+                        <li class="text-small_title hover:text-black "><a>Blogs</a></li>
+                        <li class="text-small_title hover:text-black "><a>Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end w-2/3">
+                    <div class="md:block hidden">
+                        <div
+                            class="inline-flex mr-4 items-center justify-center  bg-white h-12w-12w-12 p-3  rounded-full border">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <div
+                            class="inline-flex mr-4 items-center justify-center  bg-white h-12w-12w-12 p-3  rounded-full border">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                        <div class="inline-flex items-center h-12 px-5 bg-primary rounded-full  ">
+                            <p class="text-xl font-bold">Book Consult</p>
+                            <div
+                                class="inline-flex ml-2 items-center justify-center  bg-black h-8 w-8 p-3  rounded-full">
+                                <i class="fa-solid fa-arrow-right -rotate-45 text-white"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn lg:hidden">
+
+                            <div
+                                class="inline items-center justify-center  bg-white h-12w-12w-12 p-3  rounded-full border">
+                                <i class="fa-solid fa-bars"></i>
+                            </div>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0">
+                            <li class="text-title font-bold"><a>Home</a></li>
+                            <li class="text-small_title hover:text-black "><a>Services</a></li>
+                            <li class="text-small_title hover:text-black "><a>Portfolio</a></li>
+                            <li class="text-small_title hover:text-black "><a>Blogs</a></li>
+                            <li class="text-small_title hover:text-black "><a>Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <!-- banner -->
+            <div class="hero">
+                <div class="hero-content text-center flex-col">
+                    <!-- image  -->
+                    <img class="px-5" src="./assets/images/banner.png" alt="">
+                    <!-- text  -->
+                    <div>
+                        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold">A barn house of this design has a
+                            <br class="sm:block hidden"> striking appearance
+                        </h1>
+                        <p class="py-6 sm:w-4/5 mx-auto">
+                            The barn house captivates with its blend of rustic charm and modern sophistication,
+                            featuring weathered wood, sleek metal accents, and large windows that flood the space
+                            with natural light.
+                        </p>
+                        <!-- <button class="btn btn-primary">Get Started</button> -->
+                        <div
+                            class="inline-flex items-center justify-center h-12 px-5 bg-primary bg-opacity-50 rounded-full  w-full sm:w-auto">
+                            <p class="text-xl font-bold">View Details</p>
+                            <div
+                                class="inline-flex ml-2 items-center justify-center  bg-primary h-8 w-8 p-3  rounded-full">
+                                <i class="fa-solid fa-arrow-right -rotate-45 text-black"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+</body>
+
+</html>
