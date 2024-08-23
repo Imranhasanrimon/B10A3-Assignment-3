@@ -43,7 +43,7 @@
         <div class="container mx-auto  ">
             <!-- navbar  -->
             <div class="navbar py-12">
-                <div class="navbar-start">
+                <div class="navbar-start cursor-pointer">
                     <div class="inline-flex items-center justify-center  bg-primary h-8 w-8 p-3  rounded-full">
                         <i class="fa-solid fa-arrow-right -rotate-45 text-black"></i>
                     </div>
@@ -61,14 +61,14 @@
                 <div class="navbar-end w-[950px]">
                     <div class="md:block hidden">
                         <div
-                            class="inline-flex mr-4 items-center justify-center  bg-white h-12 w-12 p-3  rounded-full border">
+                            class="inline-flex mr-4 items-center justify-center  bg-white h-12 w-12 p-3  rounded-full border cursor-pointer">
                             <i class="fa-solid fa-magnifying-glass"></i>
                         </div>
                         <div
-                            class="inline-flex mr-4 items-center justify-center  bg-white h-12 w-12 p-3  rounded-full border">
+                            class="inline-flex mr-4 items-center justify-center  bg-white h-12 w-12 p-3  rounded-full border cursor-pointer">
                             <i class="fa-solid fa-cart-shopping"></i>
                         </div>
-                        <div class="inline-flex items-center h-12 px-5 bg-primary rounded-full  ">
+                        <div class="inline-flex items-center h-12 px-5 bg-primary rounded-full cursor-pointer">
                             <p class="text-xl font-bold">Book Consult</p>
                             <div
                                 class="inline-flex ml-2 items-center justify-center  bg-black h-8 w-8 p-3  rounded-full">
@@ -107,12 +107,11 @@
                             <br class="sm:block hidden"> striking appearance
                         </h1>
                         <p class="py-6 sm:w-4/5 mx-auto">
-                            The barn house captivates with its blend of rustic charm and modern sophistication,
-                            featuring weathered wood, sleek metal accents, and large windows that flood the space
-                            with natural light.
+                            Crafting dream homes with precision and passion, we blend traditional craftsmanship with
+                            modern design to create uniquely personalized spaces for you.
                         </p>
                         <div
-                            class="inline-flex items-center justify-center h-12 px-5 bg-primary bg-opacity-50 rounded-full  w-full sm:w-auto cursor-pointer">
+                            class="inline-flex items-center justify-center h-12 px-5 bg-primary bg-opacity-50 hover:bg-opacity-30 transition ease-linear rounded-full  w-full sm:w-auto cursor-pointer">
                             <p class="text-xl font-bold">View Details</p>
                             <div
                                 class="inline-flex ml-2 items-center justify-center  bg-primary h-8 w-8 p-3  rounded-full">
@@ -326,16 +325,15 @@
                 <!-- head-line  -->
                 <div class="text-center max-w-screen-sm mx-auto">
                     <div
-                        class="inline-flex gap-1 items-center h-11 px-5 bg-primary bg-opacity-20 rounded-full cursor-pointer text-subtitle mb-4">
+                        class="inline-flex gap-1 items-center h-11 px-5 bg-primary bg-opacity-20 hover:bg-opacity-50 transition ease-linear rounded-full cursor-pointer text-subtitle mb-4">
                         <i class="fa-solid fa-arrow-right"></i>
                         <p class="text-xl font-bold">Rinterio News</p>
                     </div>
                     <h2 class="lg:text-4xl text-2xl sm:text-3xl font-black">Read Our Articles and News
                     </h2>
-                    <p class="text-subtitle font-medium my-6">The barn house captivates with its blend of rustic
-                        charm
-                        and
-                        modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                    <p class="text-subtitle font-medium my-6">Choose furniture that complements your home's style and
+                        functionality. Consider the size of each room, color schemes, and the furniture's durability.
+                        Prioritize comfort, quality, and versatility.</p>
                 </div>
                 <!-- cards  -->
                 <div class="grid grid-cols-1 lg:grid-cols-3 gap-5">
@@ -362,7 +360,7 @@
                                 your
                                 home.</h4>
                             <p class="text-small_title font-medium">The barn house captivates with its blend of rustic
-                                charm and modern. </p>
+                                charm and modern.</p>
                             <!-- button  -->
                             <div class="flex items-center cursor-pointer mt-3">
                                 <p class="text-xl font-black">View Details</p>
@@ -455,16 +453,14 @@
                 <!-- head-line  -->
                 <div class="text-center max-w-screen-sm mx-auto">
                     <div
-                        class="inline-flex gap-1 items-center h-11 px-5 bg-primary bg-opacity-20 rounded-full cursor-pointer text-subtitle mb-4">
+                        class="inline-flex gap-1 items-center h-11 px-5 bg-primary bg-opacity-20 hover:bg-opacity-50 transition ease-linear rounded-full cursor-pointer text-subtitle mb-4">
                         <i class="fa-solid fa-arrow-right"></i>
                         <p class="text-xl font-bold">Let's Connect</p>
                     </div>
                     <h2 class="lg:text-4xl text-2xl sm:text-3xl font-black">Let's Discuss Next Project
                     </h2>
-                    <p class="text-subtitle font-medium my-6">The barn house captivates with its blend of rustic
-                        charm
-                        and
-                        modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                    <p class="text-subtitle font-medium my-6">Get in touch to start building your dream home. We're here
+                        to answer your questions, provide quotes, and guide you through every step of the process.</p>
                 </div>
                 <!-- form  -->
                 <form class="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-screen-lg mx-auto">
@@ -473,8 +469,9 @@
                     <input class="p-5 rounded-full" type="text" placeholder="Phone Number*">
                     <input class="p-5 rounded-full" type="text" placeholder="Email Number*">
                     <textarea class="p-5 rounded-3xl md:col-span-2 h-60"
-                        placeholder="Write your message here"></textarea>
-                    <div class="inline-flex items-center justify-center p-4 bg-primary rounded-full  md:col-span-2">
+                        placeholder="Write your message here..."></textarea>
+                    <div
+                        class="inline-flex items-center justify-center p-4 bg-primary hover:bg-opacity-50 transition ease-linear cursor-pointer rounded-full  md:col-span-2">
                         <p class="text-xl font-black">Send Mail</p>
                         <div class="inline-flex ml-2 items-center justify-center  bg-black h-8 w-8 p-3  rounded-full">
                             <i class="fa-solid fa-arrow-right -rotate-45 text-white"></i>
@@ -487,25 +484,27 @@
     </main>
     <footer class="bg-title py-24 px-5 mt-2">
         <!-- logo  -->
-        <div class=" flex items-center justify-center">
-            <div class="flex items-center justify-center  bg-primary h-8 w-8 p-3  rounded-full">
+        <div class="flex items-center justify-center ">
+            <div class="flex items-center justify-center  bg-primary h-8 w-8 p-3  rounded-full cursor-pointer">
                 <i class="fa-solid fa-arrow-right -rotate-45 text-black"></i>
             </div>
-            <a class=" text-3xl text-body font-bold ml-2">Rinterio</a>
+            <a class=" text-3xl text-body font-bold pl-2 cursor-pointer">Rinterio</a>
         </div>
-        <p class="text-small_title font-medium text-center max-w-screen-sm mx-auto mt-4"> The barn house captivates with
+        <p class="text-small_title font-medium text-center max-w-screen-sm mx-auto mt-4 "> The barn house captivates
+            with
             its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
         <ul
             class="text-body flex flex-col md:flex-row gap-7 md:gap-0 items-center justify-between max-w-screen-md mx-auto my-12">
-            <li><a href="">Home</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">Portfolio</a></li>
-            <li><a href="">Blogs</a></li>
-            <li><a href="">Contact Us</a></li>
+            <li><a class="hover:text-primary transition ease-linear" href="">Home</a></li>
+            <li><a class="hover:text-primary transition ease-linear" href="">Services</a></li>
+            <li><a class="hover:text-primary transition ease-linear" href="">Portfolio</a></li>
+            <li><a class="hover:text-primary transition ease-linear" href="">Blogs</a></li>
+            <li><a class="hover:text-primary transition ease-linear" href="">Contact Us</a></li>
         </ul>
         <!-- button  -->
         <div class="flex justify-center items-center">
-            <div class="inline-flex items-center justify-center p-4 bg-primary rounded-full w-full md:w-auto">
+            <div
+                class="inline-flex items-center justify-center p-4 bg-primary hover:bg-opacity-50 transition ease-linear cursor-pointer rounded-full w-full md:w-auto">
                 <p class="text-xl font-black">Book Consult</p>
                 <div class="inline-flex ml-2 items-center justify-center  bg-black h-8 w-8 p-3  rounded-full">
                     <i class="fa-solid fa-arrow-right -rotate-45 text-white"></i>
